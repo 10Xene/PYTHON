@@ -1,5 +1,5 @@
 nombre = "miguel"
-print("nombre: " + Nombre)
+print("nombre: " + nombre)
 
 len(nombre)
 
