@@ -23,5 +23,7 @@ print(numero1 * numero2)
 print(numero1 ** numero2)
 print(numero1 ** 0.5)
 
-
+print(numero1 > numero2)
+print(numero1 < numero2)
+print(numero1 == numero2)
 
