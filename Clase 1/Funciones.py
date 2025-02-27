@@ -1,3 +1,4 @@
 def saludar():
-    print("Adios")
-    saludar()
+ print("Hola mundo cruel")
+ print("Adios mundo cruel")
+saludar()

@@ -4,4 +4,8 @@ while numero < 10:
     print(numero)
 
 print()
-
+print()
+def saludar():
+ print("Adios mundo cruel")
+print("Hola mundo cruel")
+saludar()
