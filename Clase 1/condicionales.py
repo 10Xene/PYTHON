@@ -6,3 +6,5 @@ elif numero <= 2:
     print("2")
 else:
     print("El numero es mayor que 10")
+    print()
+    print("Adios mundo cruel")
