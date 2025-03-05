@@ -17,6 +17,6 @@ entrada = input("Introduce un número o palabra para verificar si es palíndromo
 
 # Verificamos si la entrada es palíndromo y mostramos el resultado
 if es_palindromo(entrada):
-    print(f"'{entrada}' es un palíndromo.")
+    print(f"'{entrada}' True.")
 else:
-    print(f"'{entrada}' no es un palíndromo.")
+    print(f"'{entrada}' False.")
