@@ -16,6 +16,6 @@ def es_palindromo(valor):
 # Pedimos al usuario que introduzca un texto o número
 entrada = input("Introduce una palabra o número: ")
 if es_palindromo(entrada):
-    print("Es un palíndromo/capicúa.")
+    print("True.")
 else:
-    print("No es un palíndromo/capicúa.")
+    print("False.")
