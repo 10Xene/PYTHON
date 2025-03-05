@@ -5,16 +5,17 @@ def es_palindromo(valor):
     Función que verifica si un número o texto es palíndromo/capicúa.
     
     Parámetro:
-        valor (int, str): Número o cadena de texto a evaluar.
+        valor (str): Cadena de texto a evaluar.
 
     Retorna:
         bool: True si es palíndromo, False en caso contrario.
     """
-    valor_str = str(valor)  # Convertimos el valor a cadena
+    valor_str = str(valor).replace(" ", "").lower()  # Convertimos a minúsculas y eliminamos espacios
     return valor_str == valor_str[::-1]  # Comparamos con su versión invertida
 
-# Ejemplos de uso
-print(es_palindromo("radar"))  # True
-print(es_palindromo("python"))  # False
-print(es_palindromo(12321))  # True
-print(es_palindromo(12345))  # False
+# Pedimos al usuario que introduzca un texto o número
+entrada = input("Introduce una palabra o número: ")
+if es_palindromo(entrada):
+    print("Es un palíndromo/capicúa.")
+else:
+    print("No es un palíndromo/capicúa.")
