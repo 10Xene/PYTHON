@@ -6,3 +6,4 @@ def convertDecimalToBinary():
         resultado = str(numeroTratar % 2) + resultado
         numeroTratar = numeroTratar // 2
     return resultado
+print(convertDecimalToBinary)

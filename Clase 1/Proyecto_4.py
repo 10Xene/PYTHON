@@ -11,3 +11,4 @@ def convertHexadecimalToBinary():
     for digito in numeroTratar:
         resultado += caracteresBinarios[digito]
     return resultado
+print(convertHexadecimalToBinary)

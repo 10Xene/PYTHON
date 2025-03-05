@@ -7,3 +7,4 @@ def convertDecimalToHexadecimal():
         resultado = caracteresHexadecimales[numeroTratar % 16] + resultado
         numeroTratar = numeroTratar // 16
     return
+print(convertDecimalToHexadecimal)
