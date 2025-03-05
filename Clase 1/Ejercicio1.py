@@ -1,21 +1,22 @@
 # 1. Crea una función para detectar si un numero o texto es palindromo/capicúa
 
-def es_palindromo(valor):
-    """
-    Función que verifica si un número o texto es palíndromo/capicúa.
+def es_palindromo(texto):
+    # Convertimos el texto a minúsculas y eliminamos espacios para compararlo correctamente
+    texto = texto.replace(" ", "").lower()
     
-    Parámetro:
-        valor (str): Cadena de texto a evaluar.
+    # Usamos un bucle para comparar los caracteres
+    longitud = len(texto)
+    for i in range(longitud // 2):
+        if texto[i] != texto[longitud - 1 - i]:
+            return False  # Si los caracteres no coinciden, no es palíndromo
+    
+    return True  # Si el bucle termina sin encontrar diferencias, es palíndromo
 
-    Retorna:
-        bool: True si es palíndromo, False en caso contrario.
-    """
-    valor_str = str(valor).replace(" ", "").lower()  # Convertimos a minúsculas y eliminamos espacios
-    return valor_str == valor_str[::-1]  # Comparamos con su versión invertida
+# Pedimos al usuario que ingrese un texto o número
+entrada = input("Introduce un número o palabra para verificar si es palíndromo: ")
 
-# Pedimos al usuario que introduzca un texto o número
-entrada = input("Introduce una palabra o número: ")
+# Verificamos si la entrada es palíndromo y mostramos el resultado
 if es_palindromo(entrada):
-    print("True.")
+    print(f"'{entrada}' es un palíndromo.")
 else:
-    print("False.")
+    print(f"'{entrada}' no es un palíndromo.")
