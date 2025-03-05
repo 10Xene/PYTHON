@@ -1,0 +1,1 @@
+# 5. Define una función que reciba una cadena de texto y cuente cuántas vocales (a, e, i, o, u) contiene.

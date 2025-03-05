@@ -1,0 +1,1 @@
+# 8. Crea una función que reciba un número entero y devuelva la suma de todos sus dígitos.

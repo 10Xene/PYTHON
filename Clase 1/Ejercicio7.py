@@ -1,0 +1,1 @@
+# 7. Escribe una función que reciba un número y genera su tabla de multiplicar hasta el 10, mostrando los resultados en formato de lista.

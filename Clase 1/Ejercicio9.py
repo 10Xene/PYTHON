@@ -1,0 +1,1 @@
+# 9. Define una función para que, dada una palabra, la devuelva invertida, por medio de bucles.
