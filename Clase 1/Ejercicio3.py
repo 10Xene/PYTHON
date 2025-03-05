@@ -17,13 +17,3 @@ maximo, minimo = obtener_maximo_minimo(lista_numeros)
 # Mostramos el resultado
 print(f"El valor máximo de la lista es: {maximo}")
 print(f"El valor mínimo de la lista es: {minimo}")
-
-
-
-
-
-
-
-
-
-
